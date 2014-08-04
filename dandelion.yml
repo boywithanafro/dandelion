@@ -1,0 +1,13 @@
+adapter: ftp
+host: server33.000webhost.com
+username: a2590820
+password: class3
+path: path/to/deployment
+
+exclude:
+    - .gitignore
+    - dandelion.yml
+    - dir/
+
+additional:
+    - config/auth.yml
